@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+header, main, footer { 
+    max-width: 700;
+    margin: 0 auto;
+}
+
+header {
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    padding: 10px;
+    background-color: #2f953c;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px;
+    justify-content: center;
+}
+
+picture{
+    padding: 10px;
+    border-radius: 6px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.35em;
+    font-family: 'Baloo Tamma 2', 'Source Serif 4', serif;
+}
+
+h2 {
+    margin-bottom: 0;
+    padding: 10px;
+    font-family: 'Baloo Tamma 2', 'Source Serif 4', serif;
+}
+
+ul {
+    margin-bottom: 0;
+    padding: 10px;
+    font-family: 'Baloo Tamma 2', 'Source Serif 4', serif;
+
+}
+
+p {
+    font-family: 'Baloo Tamma 2', 'Source Serif 4', serif;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+footer {
+    border-radius: 6px;
+    background-color: #2f953c;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.75em;
+    font-size: smaller;
+  }
+
+#lastModified {
+    text-align: center;
+	font-size: smaller;
+    display: grid;
+}
+
